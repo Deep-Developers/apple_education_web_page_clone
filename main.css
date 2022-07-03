@@ -1,0 +1,364 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+img {
+    max-width: 100%;
+}
+#navbar {
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    color: #f5f5f7;
+    align-items: center;
+    padding: 3px 0;
+}
+#navbar ul {
+    display: flex;
+    list-style-type: none;
+    column-gap: 25px;
+    align-items: center;
+}
+#navbar ul li {
+    font-size: 12px;
+    font-weight: 400;
+}
+#navbar ul li.search {
+    font-size: 15px;
+}
+#banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 25%;
+    background-color: whitesmoke;
+}
+#banner img {
+    /* width: 100%; */
+    width: 75%;
+}
+#banner h1 {
+    margin: 30px 0;
+    font-style: italic;
+    font-size: 38px;
+    line-height: 1.08349;
+    font-weight: 400;
+    letter-spacing: -0.003em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica,
+        Arial, sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+#banner h1 span {
+    color: #ca2266;
+}
+#banner p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #1d1d1f;
+    text-align: center;
+    line-height: 25px;
+}
+button.button-unidays {
+    margin: 30px 0;
+    background-color: #0077ed;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 10px 25px;
+    font-size: 18px;
+    border-radius: 20px;
+}
+#banner2 {
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+#banner2 h1 {
+    text-align: center;
+    font-size: 38px;
+}
+#banner2 h6 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 30px;
+    color: #1d1d1f;
+}
+#banner2 .cards {
+    padding: 0 15%;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#banner2 .card {
+    background-color: whitesmoke;
+    padding: 30px;
+}
+#banner2 .card .text {
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+#banner2 .card img {
+    width: 70%;
+    margin: 0 auto;
+    display: block;
+}
+.button-center {
+    text-align: center;
+}
+
+#banner3 {
+    margin: 100px 0;
+}
+
+#banner3 h1 {
+    text-align: center;
+    font-size: 38px;
+}
+
+#banner3 h6 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: lighter;
+    margin-top: 30px;
+}
+#banner3 .contact {
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: baseline;
+}
+
+#banner3 .contact h5 {
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+#banner3 .contact p {
+    text-align: center;
+    font-size: 14px;
+    font-weight: lighter;
+    margin-top: 15px;
+    color: #0066cc;
+}
+
+#banner3 .contact .call img {
+    width: 15%;
+    display: block;
+    margin: 0 auto;
+}
+#banner3 .contact .chat img {
+    width: 18%;
+    display: block;
+    margin: 0 auto;
+}
+
+#banner4 {
+    background-color: whitesmoke;
+    padding: 50px 15%;
+    margin: 100px 0;
+}
+
+#banner4 h1 {
+    text-align: center;
+    font-size: 38px;
+}
+
+#banner4 h6 {
+    text-align: center;
+    line-height: 22px;
+    font-size: 18px;
+    font-weight: lighter;
+    margin-top: 30px;
+}
+
+#banner4 p {
+    text-align: center;
+    line-height: 22px;
+    font-size: 18px;
+    font-weight: lighter;
+    margin-top: 30px;
+    color: #0066cc;
+}
+#banner4 .cards {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+#banner4 .card {
+    background-color: white;
+    border-radius: 50px;
+    padding: 70px 30px;
+}
+#banner4 .card img {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+#banner4 .card .text {
+    text-align: center;
+    padding: 0 15%;
+}
+#banner4 .card .text h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+#banner4 .card .text h5 {
+    font-size: 18px;
+    margin-bottom: 30px;
+    font-weight: lighter;
+}
+#banner4 .large-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: white;
+    margin: 30px 0;
+    border-radius: 50px;
+}
+
+#banner4 .large-card img {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+#banner4 .large-card .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 50px;
+}
+#banner4 .large-card .text h3 {
+    font-size: 22px;
+}
+#banner4 .large-card .text h4 {
+    font-size: 22px;
+    font-weight: lighter;
+    font-size: 18px;
+}
+#banner4 .simple-cards {
+    display: grid;
+    gap: 30px;
+    padding: 0 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#banner4 .simple-cards .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+#banner4 .simple-cards .item .text h4 {
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+#banner4 .simple-cards .item .text h5 {
+    text-align: center;
+    font-size: 12px;
+    font-weight: lighter;
+    margin-top: 5px;
+}
+#banner4 .simple-cards .item img {
+    display: block;
+    width: 50px;
+    /* height: 50px; */
+}
+#banner4 .simple-cards .item.apple img {
+    width: 30px;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+    display: grid;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: whitesmoke;
+    height: 100%;
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    border-radius: 30px;
+}
+#banner5 {
+    padding: 0 5%;
+}
+#banner5 .card1 {
+    display: flex;
+    height: 100%;
+    border-radius: 30px;
+    background-color: white;
+}
+
+#banner5 .swiper-slide .card {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 20px;
+    justify-content: space-between;
+    row-gap: 50px;
+}
+
+#banner6 {
+    margin-top: 100px;
+    background-color: whitesmoke;
+    padding: 100px 5%;
+}
+#banner6 h1.title {
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+#banner6 .card {
+    margin: 100px 5%;
+    background-color: white;
+    border-radius: 50px;
+
+    text-align: center;
+}
+#banner6 .card h2 {
+    font-size: 38px;
+    padding: 60px 20%;
+}
+#banner6 .card p {
+    font-size: 18px;
+    padding: 0px 20%;
+}
+#banner6 .card img {
+    width: 50%;
+    display: block;
+    margin: 50px auto;
+}
+#banner6 .card a {
+    display: block;
+    text-align: center;
+    padding-bottom: 100px;
+    color: #0066cc;
+    font-size: 18px;
+}
